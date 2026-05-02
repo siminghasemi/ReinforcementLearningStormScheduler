@@ -1,0 +1,11 @@
+{
+  "NumberOfNodes": 3,
+  "Speeds": [4.0, 2.0, 2.0],//server, slave1, slave2
+  "CPUResources": [400.0, 200.0, 200.0],//400.0 = 4 cpu core in vm
+  "MemResources": [4000.0, 3000.0, 3000.0],//4000.0 = 4 GB
+  "Bandwidths": [//MBps not 1000.0
+    [1000.0, 1000.0, 1000.0],
+    [1000.0, 1000.0, 1000.0],
+    [1000.0, 1000.0, 1000.0]
+    ]
+}

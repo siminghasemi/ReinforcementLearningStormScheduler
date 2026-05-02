@@ -1,0 +1,11 @@
+{
+  "NumberOfNodes": 3,
+  "Speeds": [4.0, 1.0, 1.0],//server, raspberryPi1, raspberryPi2
+  "CPUResources": [400.0, 200.0, 200.0],//400.0 = 4 cpu core in vm
+  "MemResources": [4000.0, 2000.0, 2000.0],//4000.0 = 4 GB
+  "Bandwidths": [//MBps
+    [1000.0, 1000.0, 1000.0],
+    [1000.0, 1000.0, 1000.0],
+    [1000.0, 1000.0, 1000.0]
+    ]
+}
